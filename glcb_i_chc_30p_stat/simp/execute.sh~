@@ -1,0 +1,7 @@
+
+module load COMPILER/GNU/5.2.0 
+
+make
+
+
+./bridge_btw_centrality_continuous_1.1_glpb_i_hc_derivation "-cmty-file=Sz512_15127_3.smt2-cvc4.cnf.cmty" "-cnf-file=Sz512_15127_3.smt2-cvc4.cnf" "-center-file=Sz512_15127_3.smt2-cvc4.cnf.clauseCommBrg.graphxcl.betwCentScoresInv" Sz512_15127_3.smt2-cvc4.cnf > Sz512_15127_3.smt2-cvc4.cnf.txt
