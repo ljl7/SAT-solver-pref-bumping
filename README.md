@@ -1,4 +1,7 @@
-# SAT-solver-pref-bumping
-This repository contains modified Glucose SAT solver that, for the VSIDS decision heuristic, preferentially bumps certain variables.
+SAT-solver-pref-bumping
+===========================
+SAT-solver-pref-bumping contains versions of the Glucose SAT solver that modifies the VSIDS decision heuristic to prefer variables that are significant within graph decompositions. 
 
-I modified Sima Jamali's version of the Glucose Simp SAT solver. (Sima Jamali: https://github.com/simajamali, Glucose: http://www.labri.fr/perso/lsimon/glucose/)
+# Acknowledgements
+- [Sima Jamali](https://github.com/simajamali) 
+- [Glucose Simp SAT solver](http://www.labri.fr/perso/lsimon/glucose/) from the Laurent Simon labs
